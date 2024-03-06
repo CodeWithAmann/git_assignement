@@ -1,0 +1,29 @@
+1 Ans :- To check if Git is installed on your system, you can open a terminal or command prompt and type git --version. If Git is installed, it will display the version number; otherwise, it will prompt you to install it.
+
+2 Ans:- To initialize a new Git repository in a directory, navigate to that directory in your terminal or command prompt and run the command git init. This command sets up a new Git repository in the current directory.
+
+3 Ans:- To configure Git with your name and email address, you can use the commands:
+arduino
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+Replace "Your Name" with your actual name and "your.email@example.com" with your email address.
+
+4 Ans:- To add a file to the staging area in Git, you use the git add command followed by the name of the file. For example:
+csharp
+git add filename.txt
+
+5 Ans:- To remove a file from the staging area in Git, you use the git reset command followed by the name of the file. For example:
+perl
+git reset filename.txt
+
+6 Ans:- To make a commit in Git, you use the git commit command. After staging your changes, run:
+sql
+git commit -m "Your commit message"
+Replace "Your commit message" with a brief description of the changes you're committing.
+
+7 Ans:- To send your changes to a remote repository, you typically use the git push command. For example:
+perl
+git push origin master
+This command pushes your changes to the remote repository named "origin" in the "master" branch.
+
+8 Ans:- git clone is used to create a copy of a remote repository on your local machine, including all branches and commit history. git pull is used to fetch and integrate changes from a remote repository into your current branch. Essentially, clone is used for the initial setup, while pull is used to update your local repository with changes from the remote repository.
